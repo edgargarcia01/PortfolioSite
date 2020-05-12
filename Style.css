@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navigation h3, li, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #e9eaeb;
+    background-color: rgb(43, 43, 44);
+    text-decoration: none;
+}
+
+.navigation h3 {
+    font-size:  22px;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 8%;
+    background-color: rgb(43, 43, 44); 
+}
+
+
+.navigation-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-links li {
+    display: inline-block;
+    padding: 0px 18px;
+}
+
+.navigation-links li a:hover {
+    color: rgb(104, 104, 114);
+}
+
+
+.content {
+    background-color: black;
+}
+
+
+
+
